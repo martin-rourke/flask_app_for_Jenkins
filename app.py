@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	names = {1: "Moron", 2: "Leeping", 3: "Justin", 4: "Mark", 5: "Ernie", 6: "Michael"}
+	names = {1: "Yorkie", 2: "Penfold", 3: "Rents", 4: "Dog", 5: "Venners", 6: "Maggie"}
 	name = names[random.randint(1,6)]
 	return "Hello, " + name + "!"
 
